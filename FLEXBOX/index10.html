@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalogo de imagenes</title>
+
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header{
+            height: 70px;
+            line-height: 70px;
+            padding-left: 40px;
+            background: #333334;
+            color: #ffffff;
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        article{
+            display: flex;
+            margin-top: 30px;
+            background: #ccc;
+        }
+        #no-wrap{
+            flex-wrap: nowrap;
+        }    
+        #wrap{
+            flex-wrap: wrap;
+        }
+
+        img{
+            border: dashed 1px #555;
+            margin: 10px;
+            height: 150px;
+            width: 200px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header> FLEXBOX CATALOGO DE IMAGENES </header>
+    <nav> </nav>
+    <section>
+        <h1>flex-wrap:nowrap;</h1>
+        <article id="no-wrap">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+        </article>
+        <h2>flex-wrap:wrap;</h2>
+        <article id="wrap">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+            <img src="Imagenes/virus2.jpg" alt="">
+        </article>
+    </section>
+    
+</body>
+</html>
